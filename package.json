@@ -1,0 +1,20 @@
+{
+  "name": "playercontrol",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/MyPlayerControlBundle.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.17.2"
+  },
+  "dependencies": {
+    "node-ssdp": "^4.0.1"
+  }
+}
